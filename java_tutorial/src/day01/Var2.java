@@ -37,5 +37,6 @@ public class Var2 {
 		// double : 소수점있는 숫자(실수)
 		// String : 글자(문자열)
 	}
+	
 
 }

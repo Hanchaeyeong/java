@@ -64,7 +64,7 @@ class Human{
 		age = 나이;
 		height = 키;
 	}
-	String 정보출력(String num) {
+	String 정보출력() {
 		return name+"의 정보 : "+gender+age+height;
 	}
 }

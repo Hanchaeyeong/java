@@ -2,11 +2,11 @@ package day07;
 
 public class Extends2 {
 	public static void main(String[] args) {
-		Human h1 = new Human();
-		h1.Info("홍길동",22);
+		Human h1 = new Human("홍길동", 22);
+		h1.Info();
 		
-		Member m1 = new Member();
-		m1.Info("아무개",23);
+		Member m1 = new Member("아무개", 33);
+		m1.Info();
 		
 	}
 
@@ -37,15 +37,11 @@ class Member extends Human{
 	}
 	// Human의 코드가 복붙되어 있음
 	// 상속을 해서 수정하는 것 : 오버라이딩
-	public void Info(String name, int age) {
-		this.name = name;
-		this.age = age;
+	public void Info() {
 		System.out.println("회원의 이름은"+name+"이고, 나이는"+this.age);
 	}
 	// 함수 이름은 동일해도 인자()가 다르면 다른 함수로 취급 : 오버로딩
-	public void Info() {
-		
-	}
+
 	
 	public void go() {
 		System.out.println("실행");

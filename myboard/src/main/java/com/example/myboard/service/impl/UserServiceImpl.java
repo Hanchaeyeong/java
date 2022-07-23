@@ -23,6 +23,6 @@ public class UserServiceImpl implements UserService{
 	
 	@Override
 	public List<User> getAllUser(){
-		return user.findAll();
+		return user.findAll();			// 상속받은 인터페이스의 함수를 오버라이딩
 	} 
 }

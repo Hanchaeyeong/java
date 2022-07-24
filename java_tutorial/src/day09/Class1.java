@@ -3,7 +3,6 @@ package day09;
 public class Class1 {
 	public static void main(String[] args) {
 		MyClassEx m1 = new MyClassEx();
-		m1.go();
 		m1.go2();
 		
 	}
